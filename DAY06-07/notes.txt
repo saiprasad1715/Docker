@@ -323,9 +323,9 @@ EX: ENTRYPOINT java -jar app.jar  --> shell form
 
 IQ] what is the difference between CMD and ENTRYPOINT?
 ANS:
-
   --> CMD instructions are overriden while creating a container, But ENTRYPOINT instructions can't be overrriden while creating a container.
   --> Both the instructions are used to start our container.
+
 
 IQ] can we keep both CMD and ENTRYPOINT instructions in a Dockerfile?
 
