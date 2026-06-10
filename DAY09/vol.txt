@@ -247,7 +247,7 @@ How to create a conatiner with volumes?
 
 docker run -d --name springapp --network jionetwork -p 8080:8080 -e MONGO_DB_HOSTNAME=mongo -e MONGO_DB_USERNAME=devdb -e MONGO_DB_PASSWORD=dev123 kkdevopsb4/springimage
 
-docker run -d --name mongo -v jiovolume:/data/db --network jionetwork -e MONGO_INITDB_ROOT_USERNAME=devdb -e MONGO_INITDB_ROOT_PASSWORD=dev123 mongo
+docker run -d --name mongo -v jiovolume:/data/db --network jionetwork -e MONGO_INITDB_ROOT_USERNAME=devdb -e MONGO_INITDB_ROOT_PASSWORD=dev123 mongo:8.0.9-noble
 
 
 How to inspect the volume?
